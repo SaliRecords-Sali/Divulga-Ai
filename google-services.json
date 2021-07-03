@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1067959392509",
+    "firebase_url": "https://divulga-ai-default-rtdb.firebaseio.com",
+    "project_id": "divulga-ai",
+    "storage_bucket": "divulga-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067959392509:android:aa9b1159f898eaba0c0694",
+        "android_client_info": {
+          "package_name": "com.salirecords.divulgaai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067959392509-hffiq02jc7ih5rv67rp7gu2js1rpmtau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAldMMzTxvRmxkRj85gXHKUeuv8PRykPyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067959392509-hffiq02jc7ih5rv67rp7gu2js1rpmtau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

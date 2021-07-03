@@ -2,6 +2,7 @@ import { theme } from "../../global/styles/theme";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
+
     background:{
       flex:1,
       alignItems: "center",
@@ -51,17 +52,39 @@ export const styles = StyleSheet.create({
       fontWeight: "bold",
     },
   
-    btnRegister:{
-      width: "90%",
-      height: 60,
-      borderRadius: 5,
-      alignItems: "center",
-      justifyContent: "center",
-      marginTop: '20%',
-      marginBottom:'5%',
-      top:60
+    btnSocial:{
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      borderWidth: 0.2,
+      borderColor:theme.header.colors.titleColor,
+      backgroundColor: theme.dark.backgroundcolor,
+      alignItems:'center',
+      justifyContent:'center',
+      alignSelf:'center',
+      overflow: 'hidden',
+      marginHorizontal: 10,
     },
-  
+
+    social:{
+      marginTop:20,
+      flexDirection:'row',
+      flex:1,
+    },
+
+    footer:{
+      width: '100%',
+      height: 60,
+      borderTopColor: theme.dark.fontColor,
+      borderTopWidth: 0.2,
+    },
+    btnRegister:{
+      flex: 1,
+      height: 60,
+      alignSelf:'center',
+      justifyContent:'center',
+    },
+
     registerText:{
       color: theme.dark.fontColor,
     },
